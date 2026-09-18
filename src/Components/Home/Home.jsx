@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import data from "../../data/posts.json"
+import data from "../../data/posts.json";
 const Home = () => {
   const featuredPost = data.posts.filter((post) => post.featured === true)
   const latestPost = data.posts.slice(0, 3);
